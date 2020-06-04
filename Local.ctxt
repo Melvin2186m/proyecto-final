@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Local
+comment1.params=nombre\ nombre_Pro\ clave_Esta
+comment1.target=Local(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=nombre
+comment2.target=void\ setNombre(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment4.params=nombre_Pro
+comment4.target=void\ setNombre_Pro(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNombre_Pro()
+comment6.params=clave_Esta
+comment6.target=void\ setClave_Esta(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getClave_Esta()
+numComments=8

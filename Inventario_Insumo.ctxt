@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Inventario_Insumo
+comment1.params=i
+comment1.target=void\ agreagarInsumo(Insumo)
+numComments=2

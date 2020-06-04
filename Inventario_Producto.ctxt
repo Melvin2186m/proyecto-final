@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Inventario_Producto
+comment1.params=p
+comment1.target=void\ AgregarProducto(Producto)
+comment2.params=p
+comment2.target=void\ litaAsignar(Producto)
+numComments=3

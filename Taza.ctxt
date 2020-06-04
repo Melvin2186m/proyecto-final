@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Taza
+comment1.params=nombre_Ceramica\ estado_Ceramica\ con_Asa
+comment1.target=Taza(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=con_Asa
+comment2.target=void\ setCon_Asa(boolean)
+comment3.params=
+comment3.target=boolean\ getCon_Asa()
+numComments=4

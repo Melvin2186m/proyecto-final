@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Plato
+comment1.params=nombre_Ceramica\ estado_Ceramica\ tipo_Hondo
+comment1.target=Plato(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=tipo_Hondo
+comment2.target=void\ setTipo_Hondo(boolean)
+comment3.params=
+comment3.target=boolean\ getTipo_Hondo()
+numComments=4

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Producto
+comment1.params=nombre_Ceramica\ estado_Ceramica
+comment1.target=Producto(java.lang.String,\ java.lang.String)
+comment2.params=nombre_Ceramica
+comment2.target=void\ setNombre_Ceramica(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre_Ceramica()
+comment4.params=estado_Ceramica
+comment4.target=void\ setEstado_Ceramica(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ setEstado_Ceramica()
+numComments=6

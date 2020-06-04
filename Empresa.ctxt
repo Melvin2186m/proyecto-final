@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Empresa
+comment1.params=nombre_Pro\ nombre_Representante\ clave_Representate
+comment1.target=Empresa(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=nombre_Representante
+comment2.target=void\ setNombre_Representante(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre_Representante()
+comment4.params=clave_Representante
+comment4.target=void\ setClave_Representante(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getClave_Representante()
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pintura
+comment1.params=tipo_Insumo\ cantidad\ color
+comment1.target=Pintura(java.lang.String,\ double,\ java.lang.String)
+comment2.params=color
+comment2.target=void\ setColor(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getColor()
+numComments=4

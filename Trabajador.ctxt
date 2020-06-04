@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Trabajador
+comment1.params=nombre_Tra\ ide_Tra
+comment1.target=Trabajador(java.lang.String,\ java.lang.String)
+comment2.params=nombre_Tra
+comment2.target=void\ setNombre_Tra(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre_Tra()
+comment4.params=ide_Tra
+comment4.target=void\ setIde_Tra(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getIde_Tra()
+numComments=6

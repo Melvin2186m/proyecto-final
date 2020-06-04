@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ruta
+comment1.params=ubicacion
+comment1.target=Ruta(java.lang.String)
+comment2.params=ubicacion
+comment2.target=void\ setUbicacion(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getUbicacion()
+comment4.params=l
+comment4.target=void\ AgregarLocal(Local)
+comment5.params=
+comment5.target=java.util.Vector\ Establecimientos()
+numComments=6

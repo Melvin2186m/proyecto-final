@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Persona
+comment1.params=nombre_Pro\ curp_Per
+comment1.target=Persona(java.lang.String,\ java.lang.String)
+comment2.params=curp_Per
+comment2.target=void\ setCurp_Per(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getCurp_Per()
+numComments=4

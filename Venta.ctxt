@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Venta
+comment1.params=fecha\ clave_Cliente\ cantidad\ clave_Vendedor
+comment1.target=Venta(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=fecha
+comment2.target=void\ setFecha(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getFecha()
+comment4.params=clave_Cliente
+comment4.target=void\ setClave_Cliente(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getClave_Cliente()
+comment6.params=cantidad
+comment6.target=void\ setCantidad(int)
+comment7.params=
+comment7.target=int\ getCantidad()
+numComments=8

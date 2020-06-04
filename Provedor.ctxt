@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Provedor
+comment1.params=nombre_Pro
+comment1.target=Provedor(java.lang.String)
+comment2.params=nombre_Pro
+comment2.target=void\ setNombre_Pro(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre_Pro()
+numComments=4

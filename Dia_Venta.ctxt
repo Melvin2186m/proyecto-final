@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Dia_Venta
+comment1.params=nombre_Vendeddor\ nombre_Ruta\ clave_Vehiculo
+comment1.target=Dia_Venta(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=nombre_Vendedor
+comment2.target=void\ setNombre_Vendedor(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre_Vendedor()
+comment4.params=nombre_Ruta
+comment4.target=void\ setNombre_Ruta(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNombre_Ruta()
+comment6.params=clave_Vehiculo
+comment6.target=void\ setClave_Vehiculo(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getClave_Vehiculo()
+comment8.params=
+comment8.target=void\ Ventas_Realizadas()
+comment9.params=
+comment9.target=void\ Inventario_Asignado()
+numComments=10

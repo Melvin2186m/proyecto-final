@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Alfarero
+comment1.params=nombre_Tra\ ide_Tra\ alfareroCompleto
+comment1.target=Alfarero(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=void\ Pagar()
+comment3.params=l\ cantidad
+comment3.target=void\ Producirceramica(Insumo,\ int)
+numComments=4

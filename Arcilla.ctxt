@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Arcilla
+comment1.params=tipo_Insumo\ cantidad
+comment1.target=Arcilla(java.lang.String,\ double)
+numComments=2
