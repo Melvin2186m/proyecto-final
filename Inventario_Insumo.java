@@ -14,4 +14,9 @@ public class Inventario_Insumo
             }
      } return cantidad_disponible;
   }
+  public void modificarInventario(int cantidad ){
+    for (Insumo I:lista_Insumo ){
+    
+    }
+     }
 }

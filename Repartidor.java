@@ -1,7 +1,7 @@
 public class Repartidor extends Trabajador
 {
    private String num_Licen;
-   public Repartidor(String nombre_Tra,String ide_Tra,String num_Licen){
+   public Repartidor(String nombre_Tra,String ide_Tra,String num_Licen,Vehiculo v){
     super(nombre_Tra,ide_Tra);
     this.num_Licen=num_Licen;
     }

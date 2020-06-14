@@ -15,17 +15,62 @@ public class Alfarero extends Trabajador
          
         }
     }
-    public void Producirceramica( int cantidad,String tipo_Ceramica ){
-        Inventario_Insumo I=null;
-        double total=I.CantidadDisponible(tipo_Ceramica);
-        
+    
+    public void Producirceramica_Plato( int cantidad,Inventario_Insumo I,Inventario_Producto L){
+        double total=I.CantidadDisponible("arcilla");
+        int total_consumir=cantidad*400;
         try {
-         if(total>=utilizar)
-            
-            
+         if(total>=total_consumir){
+            for(int i=0;i<=cantidad;i++){
+            L.AgregarProducto(new Plato("Plato","Natural",false));
+            }
+        }   
          }catch(Exception e) {
             System.out.println(e.getMessage());
         }
     }
-  }
+      public void Producirceramica_PlatoH(int cantidad,Inventario_Insumo I,Inventario_Producto L){
+       double total=I.CantidadDisponible("arcilla");
+        int total_consumir=cantidad*400;
+        try {
+         if(total>=total_consumir){
+            for(int i=0;i<=cantidad;i++){
+            L.AgregarProducto(new Plato("Plato","Natural",true));
+            }
+        }   
+         }catch(Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public void Producirceramica_TazaAsa(int cantidad,Inventario_Insumo I,Inventario_Producto L){
+       
+        double total=I.CantidadDisponible("arcilla");
+        int total_consumir=cantidad*300;
+        try {
+         if(total>=total_consumir){
+            for(int i=0;i<=cantidad;i++){
+            L.AgregarProducto(new Taza("Taza","Natural",true));
+            }
+        }   
+         }catch(Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+     public void Producirceramica_Taza(int cantidad,Inventario_Insumo I,Inventario_Producto L){
+       double total=I.CantidadDisponible("arcilla");
+        int total_consumir=cantidad*300;
+        try {
+         if(total>=total_consumir){
+            for(int i=0;i<=cantidad;i++){
+            L.AgregarProducto(new Taza("Taza","Natural",false));
+            }
+        }   
+         }catch(Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    
+ }
+    
+  
 

@@ -9,5 +9,5 @@ comment3.target=java.lang.String\ getNombre_Ceramica()
 comment4.params=estado_Ceramica
 comment4.target=void\ setEstado_Ceramica(java.lang.String)
 comment5.params=
-comment5.target=java.lang.String\ setEstado_Ceramica()
+comment5.target=java.lang.String\ getEstado_Ceramica()
 numComments=6

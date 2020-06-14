@@ -2,4 +2,8 @@
 comment0.target=CoccionJob
 comment1.params=nombre_Tra\ ide_Tra
 comment1.target=CoccionJob(java.lang.String,\ java.lang.String)
-numComments=2
+comment2.params=l
+comment2.target=void\ cocerProducoNatural(Inventario_Producto)
+comment3.params=l
+comment3.target=void\ cocerProductoEsmaltado(Inventario_Producto)
+numComments=4

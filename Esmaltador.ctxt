@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Esmaltador
-comment1.params=nombre_Tra\ ide_Tra
-comment1.target=Esmaltador(java.lang.String,\ java.lang.String)
-numComments=2
+comment1.params=nombre_Tra\ ide_Tra\ cantidad
+comment1.target=Esmaltador(java.lang.String,\ java.lang.String,\ int)
+comment2.params=S\ L\ cantidad
+comment2.target=void\ esmaltarPlato(Inventario_Producto,\ Inventario_Insumo,\ int)
+comment3.params=S\ L\ cantidad
+comment3.target=void\ esmaltarTaza(Inventario_Producto,\ Inventario_Insumo,\ int)
+numComments=4

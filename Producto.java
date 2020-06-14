@@ -13,5 +13,5 @@ public abstract  class Producto
  public void setEstado_Ceramica(String estado_Ceramica){
     this.estado_Ceramica=estado_Ceramica;
     }
- public String setEstado_Ceramica(){return estado_Ceramica;}
+ public String getEstado_Ceramica(){return estado_Ceramica;}
 }

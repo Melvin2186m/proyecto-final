@@ -2,4 +2,8 @@
 comment0.target=Inventario_Insumo
 comment1.params=i
 comment1.target=void\ agreagarInsumo(Insumo)
-numComments=2
+comment2.params=tipoDe_Insumo
+comment2.target=double\ CantidadDisponible(java.lang.String)
+comment3.params=cantidad
+comment3.target=void\ modificarInventario(int)
+numComments=4
