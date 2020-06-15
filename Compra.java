@@ -2,23 +2,23 @@ import java.util.Date;
 public class Compra
 {
     private Date fecha_Compra;
-    private String clave_Prove;
+    private Provedor Prove;
     private String nombre_Insumo;
     private double cantidad;
     private double monto;
     
-    public Compra(String clave_Prove,String nombre_Insumo,double cantidad,double monto){
+    public Compra(Provedor Prove,String nombre_Insumo,double cantidad,double monto ){
     this.fecha_Compra=new Date();
-    this.clave_Prove= clave_Prove;
+    this.Prove= Prove;
     this.nombre_Insumo=nombre_Insumo;
     this.cantidad=cantidad;
     this.monto=monto;
     }
     
-    public void setClave_Prove(String clave_Prove){
-      this.clave_Prove= clave_Prove;
+    public void setClave_Prove(Provedor Prove){
+      this.Prove= Prove;
     }
-    public String getClave_Prove(){return clave_Prove;}
+    public Provedor getClave_Prove(){return Prove;}
     public void setNombre_Insumo(String nombre_Insumo){
     this.nombre_Insumo=nombre_Insumo;
     }

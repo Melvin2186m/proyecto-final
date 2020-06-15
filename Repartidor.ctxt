@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Repartidor
-comment1.params=nombre_Tra\ ide_Tra\ num_Licen\ v
-comment1.target=Repartidor(java.lang.String,\ java.lang.String,\ java.lang.String,\ Vehiculo)
+comment1.params=nombre_Tra\ ide_Tra\ num_Licen
+comment1.target=Repartidor(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment2.params=num_Licen
 comment2.target=void\ setNum_Licen(java.lang.String)
 comment3.params=

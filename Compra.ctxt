@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Compra
-comment1.params=clave_Prove\ nombre_Insumo\ cantidad\ monto
-comment1.target=Compra(java.lang.String,\ java.lang.String,\ double,\ double)
+comment1.params=Prove\ nombre_Insumo\ cantidad\ monto
+comment1.target=Compra(Provedor,\ java.lang.String,\ double,\ double)
 comment10.params=
 comment10.target=java.util.Date\ getFecha()
-comment2.params=clave_Prove
-comment2.target=void\ setClave_Prove(java.lang.String)
+comment2.params=Prove
+comment2.target=void\ setClave_Prove(Provedor)
 comment3.params=
-comment3.target=java.lang.String\ getClave_Prove()
+comment3.target=Provedor\ getClave_Prove()
 comment4.params=nombre_Insumo
 comment4.target=void\ setNombre_Insumo(java.lang.String)
 comment5.params=

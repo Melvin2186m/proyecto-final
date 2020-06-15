@@ -10,4 +10,6 @@ comment4.params=color
 comment4.target=void\ setColor(java.lang.String)
 comment5.params=
 comment5.target=java.lang.String\ getColor()
-numComments=6
+comment6.params=p
+comment6.target=void\ InventarioAsignado(Producto)
+numComments=7

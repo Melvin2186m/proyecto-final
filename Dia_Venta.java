@@ -4,35 +4,35 @@ import java.util.Date;
 public class Dia_Venta
 {
    private Date fecha;
-   private String nombre_Vendedor;
-   private String nombre_Ruta;
-   private String clave_Vehiculo;
+   private Repartidor Vendedor;
+   private Ruta Ruta;
+   private Vehiculo Vehiculo;
    
-   Vector<Producto> productos_Vender = new Vector<Producto>(); 
+   Vector<Producto> Inventario_Abordo = new Vector<Producto>(); 
    
-   public Dia_Venta(String nombre_Vendeddor,String nombre_Ruta,String clave_Vehiculo){
-     this.nombre_Vendedor=nombre_Vendedor;
-     this.nombre_Ruta=nombre_Ruta;
-     this.clave_Vehiculo=clave_Vehiculo;
+   public Dia_Venta(Repartidor Vendedor, Ruta Ruta,Vehiculo Vehiculo){
+     this.Vendedor=Vendedor;
+     this.Ruta=Ruta;
+     this.Vehiculo=Vehiculo;
      fecha = new Date();
     }
-   public void setNombre_Vendedor(String nombre_Vendedor){
-    this.nombre_Vendedor=nombre_Vendedor;
+   public void setNombre_Vendedor(Repartidor Vendedor){
+    this.Vendedor=Vendedor;
     }
-   public String getNombre_Vendedor(){
-    return nombre_Vendedor;
+   public Repartidor getNombre_Vendedor(){
+    return Vendedor;
     }
-   public void setNombre_Ruta(String nombre_Ruta){
-    this.nombre_Ruta=nombre_Ruta;
+   public void setNombre_Ruta(Ruta Ruta){
+    this.Ruta=Ruta;
     }
-   public String getNombre_Ruta(){
-    return nombre_Ruta;
+   public Ruta getNombre_Ruta(){
+    return Ruta;
     }
-   public void setClave_Vehiculo(String clave_Vehiculo){
-    this.clave_Vehiculo=clave_Vehiculo;
+   public void setClave_Vehiculo(Vehiculo Vehiculo){
+    this.Vehiculo=Vehiculo;
     }
-   public String getClave_Vehiculo(){
-   return clave_Vehiculo; 
+   public Vehiculo getClave_Vehiculo(){
+   return Vehiculo; 
     }
    public void  Ventas_Realizadas(){
     }

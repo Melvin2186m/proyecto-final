@@ -9,5 +9,4 @@ public class Persona extends Provedor
     this.curp_Per=curp_Per;
     }
    public String getCurp_Per(){return curp_Per;}
-    
 }
