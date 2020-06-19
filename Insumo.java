@@ -1,11 +1,12 @@
 
 public  abstract class Insumo
 {
-   private String tipo_Insumo;
-   private double cantidad;
+   protected String tipo_Insumo;
+   protected double cantidad;
    public Insumo(String tipo_Insumo,double cantidad){
    this.tipo_Insumo=tipo_Insumo; 
    this.cantidad=cantidad;
+   
    }
    public void setTipo_Insumo(String tipo_Insumo){
     this.tipo_Insumo=tipo_Insumo; 

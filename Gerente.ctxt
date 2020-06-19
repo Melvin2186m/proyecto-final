@@ -2,6 +2,6 @@
 comment0.target=Gerente
 comment1.params=nombre_Tra\ ide_Tra
 comment1.target=Gerente(java.lang.String,\ java.lang.String)
-comment2.params=
-comment2.target=void\ comprarProvedor()
+comment2.params=Prove\ nombre_Insumo\ cantidad\ monto\ i
+comment2.target=void\ comprarProvedor(Provedor,\ java.lang.String,\ double,\ double,\ Inventario_Insumo)
 numComments=3

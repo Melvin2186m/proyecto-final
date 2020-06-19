@@ -15,7 +15,12 @@ public class Alfarero extends Trabajador
          
         }
     }
-    
+    public void setAlfareroCompleto(boolean alfareroCompleto){
+    this.alfareroCompleto=alfareroCompleto;
+    }
+    public boolean getAlfareroCompleto(){
+    return  alfareroCompleto;
+    }
     public void Producirceramica_Plato( int cantidad,Inventario_Insumo I,Inventario_Producto L){
         double total=I.CantidadDisponible("arcilla");
         int total_consumir=cantidad*400;
@@ -31,9 +36,10 @@ public class Alfarero extends Trabajador
     }
       public void Producirceramica_PlatoH(int cantidad,Inventario_Insumo I,Inventario_Producto L){
        double total=I.CantidadDisponible("arcilla");
-        int total_consumir=cantidad*400;
+        double total_consumir=cantidad*400;
         try {
          if(total>=total_consumir){
+            I.modificarInventario(total_consumir,"Arcilla");
             for(int i=0;i<=cantidad;i++){
             L.AgregarProducto(new Plato("Plato","Natural",true));
             }
@@ -48,6 +54,7 @@ public class Alfarero extends Trabajador
         int total_consumir=cantidad*300;
         try {
          if(total>=total_consumir){
+            I.modificarInventario(total_consumir,"Arcilla");
             for(int i=0;i<=cantidad;i++){
             L.AgregarProducto(new Taza("Taza","Natural",true));
             }
@@ -61,6 +68,7 @@ public class Alfarero extends Trabajador
         int total_consumir=cantidad*300;
         try {
          if(total>=total_consumir){
+            I.modificarInventario(total_consumir,"Arcilla");
             for(int i=0;i<=cantidad;i++){
             L.AgregarProducto(new Taza("Taza","Natural",false));
             }

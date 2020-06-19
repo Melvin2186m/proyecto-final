@@ -1,12 +1,9 @@
-
-public abstract class Trabajador
-{
+  public abstract class Trabajador  {
  protected String nombre_Tra;
  protected String ide_Tra;
- protected String trabajador="tra";
  public Trabajador(String nombre_Tra,String ide_Tra){
     this.nombre_Tra=nombre_Tra;
-    this.ide_Tra=ide_Tra+trabajador;
+    this.ide_Tra=ide_Tra;
     }
    public void setNombre_Tra(String nombre_Tra){
     this.nombre_Tra=nombre_Tra;

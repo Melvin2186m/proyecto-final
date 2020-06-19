@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=lista_Personal
+comment1.params=l
+comment1.target=void\ AgregarPersonal(Trabajador)
+comment10.params=p
+comment10.target=java.lang.String\ Imprimirg(Gerente)
+comment11.params=l
+comment11.target=java.lang.String\ identificar(Trabajador)
+comment12.params=l
+comment12.target=void\ imprimirt(java.lang.String)
+comment2.params=Clave
+comment2.target=java.lang.String\ BuscarTrabajador(java.lang.String)
+comment3.params=nombre
+comment3.target=java.util.Vector\ BuscarTrabajador_nombre(java.lang.String)
+comment4.params=Clave
+comment4.target=Trabajador\ EliminarTrabajador(java.lang.String)
+comment5.params=
+comment5.target=int\ cuanto_Personal()
+comment6.params=p
+comment6.target=java.lang.String\ Imprimir(Repartidor)
+comment7.params=p
+comment7.target=java.lang.String\ Imprimirc(CoccionJob)
+comment8.params=p
+comment8.target=java.lang.String\ Imprimira(Alfarero)
+comment9.params=p
+comment9.target=java.lang.String\ Imprimire(Esmaltador)
+numComments=13

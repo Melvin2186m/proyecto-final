@@ -14,9 +14,28 @@ public class Inventario_Insumo
             }
      } return cantidad_disponible;
   }
-  public void modificarInventario(int cantidad ){
-    for (Insumo I:lista_Insumo ){
-    
+  public void modificarInventario(double cantidad,String tipo_insumo ){
+      Insumo o=null;
+      double cantidad_Crear;
+      double contador=0.0;
+      for (Insumo I:lista_Insumo ){
+       if(I.getTipo_Insumo().equalsIgnoreCase(tipo_insumo)){
+         contador=+I.getCantidad();
+         lista_Insumo.remove(I);
+        }
+    }
+    cantidad_Crear=contador-cantidad;
+     if(cantidad_Crear>0.0){
+       if(tipo_insumo.equalsIgnoreCase("arcilla"))
+       o=new Arcilla("Arcilla",cantidad_Crear);
+       if(tipo_insumo.equalsIgnoreCase("pintura"))
+       o=new Pintura("Pintura",cantidad_Crear);
+       if(tipo_insumo.equalsIgnoreCase("esmalte"))
+       o=new Esmalte("Pintura",cantidad_Crear);
+       
+     lista_Insumo.add(o);
     }
      }
+    
+
 }
