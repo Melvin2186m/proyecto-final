@@ -9,7 +9,11 @@ comment3.target=java.lang.String\ getPlaca()
 comment4.params=modelo
 comment4.target=void\ setModelo(java.lang.String)
 comment5.params=
+<<<<<<< HEAD
 comment5.target=java.lang.String\ getModelo()
+=======
+comment5.target=java.lang.String\ getColor()
+>>>>>>> 73f318255afda8f6a2d1d52d600bca29d025e69a
 comment6.params=p
 comment6.target=void\ InventarioAsignado(Producto)
 numComments=7

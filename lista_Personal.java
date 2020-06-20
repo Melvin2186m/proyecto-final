@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Vector;
 public class lista_Personal
 {
@@ -97,4 +98,10 @@ public class lista_Personal
     public void imprimirt(String l){
     System.out.print(l);
     }
+=======
+
+public class lista_Personal
+{
+   
+>>>>>>> 73f318255afda8f6a2d1d52d600bca29d025e69a
 }
